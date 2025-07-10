@@ -25,4 +25,4 @@ else
 fi
 
 echo "Passing the following arguments to Electron:" "${FLAGS[@]}" "$@"
-zypak-wrapper /app/bin/vesktop/vesktop.bin "${FLAGS[@]}" "$@"
+zypak-wrapper /app/bin/vesktop/Vesktop.bin "${FLAGS[@]}" "$@"
