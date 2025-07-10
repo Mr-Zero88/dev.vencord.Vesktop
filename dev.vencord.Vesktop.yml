@@ -50,7 +50,7 @@ modules:
         path: startvesktop
 
       - type: file
-        url: https://github.com/Vencord/Vesktop/releases/download/v1.5.8/dev.vencord.Vesktop.metainfo.xml
+        url: https://github.com/Mr-Zero88/Vesktop/releases/download/v1.5.8/dev.vencord.Vesktop.metainfo.xml
         sha512: 2bfe8c694b368a6ba28784bebbc5d94da65a30ead8e8c6a8cd3a0f92cff637ed5dd658c478a62cfe6815473af44cca1632ecf01c07928e87d95cd848a81ea6a1
         x-checker-data:
           type: json
@@ -60,19 +60,19 @@ modules:
             | .browser_download_url
 
       - type: file
-        url: https://github.com/Vencord/Vesktop/releases/latest/download/Vesktop-1.5.8.AppImage
+        url: https://github.com/Mr-Zero88/Vesktop/releases/latest/download/Vesktop-1.5.8.AppImage
         dest-filename: Vesktop.AppImage
-        sha512: 8be124595d9e1e18466fea322d5015378531c9c017be161dbc76d1dafcfc5b76be7f99f6d8b0c352124d09f9074278d749db256f58dbf007386439933f863062
+        sha512: 8d63c9a2191ac0830884313227ba201e0f732cffef21f7d57747870ab4133ab42fe466716204deae512d029cc450c674c2b053d44ed645143b093c608e1c6db3
         only-arches: [x86_64]
         x-checker-data:
           type: electron-updater
-          url: https://github.com/Vencord/Vesktop/releases/latest/download/latest-linux.yml
+          url: https://github.com/Mr-Zero88/Vesktop/releases/latest/download/latest-linux.yml
 
       - type: file
-        url: https://github.com/Vencord/Vesktop/releases/latest/download/Vesktop-1.5.8-arm64.AppImage
+        url: https://github.com/Mr-Zero88/Vesktop/releases/latest/download/Vesktop-1.5.8-arm64.AppImage
         dest-filename: Vesktop.AppImage
-        sha512: c328c7bff1efc61638d96bf62f6bcbcf7d0c7533b5eb48933dc27f5eb93afe730aea8a7dfcef6b6f7999cc8cf4b8e6adaf1e319d92ad0fea28e1f4181565d119
+        sha512: d1697d8fcad57905567683b9e4ed6c83278331a5da2302e3b68aa747d53c2dc23ee8567ac72c2ccca183c5b1d2df862738df6f5cb02bc3c44a51342fc57e5288
         only-arches: [aarch64]
         x-checker-data:
           type: electron-updater
-          url: https://github.com/Vencord/Vesktop/releases/latest/download/latest-linux-arm64.yml
+          url: https://github.com/Mr-Zero88/Vesktop/releases/latest/download/latest-linux-arm64.yml
